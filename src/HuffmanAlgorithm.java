@@ -98,7 +98,7 @@ public class HuffmanAlgorithm {
         return s.toString();
     }
 
-    public static void decode(String s) {
+    public static String decode(String s) {
 
         StringBuilder stringBuilder = new StringBuilder();
 
@@ -126,6 +126,7 @@ public class HuffmanAlgorithm {
         }
 
         System.out.println("Decoded string is " + stringBuilder.toString());
+        return stringBuilder.toString();
 
     }
 }
